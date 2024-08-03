@@ -99,6 +99,10 @@ let diffrot = 0;
         
        })
      })
+     gsap.to(".right",{
+      y:0,
+      
+     })
 })
 
 
@@ -106,5 +110,5 @@ let diffrot = 0;
 
 mouseMove();
 firstpageanimi();
-lastpageanimi();
+// lastpageanimi();
 circleChapataKaro();
